@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp5.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Label Content="Квадратное уранение" HorizontalAlignment="Left" Margin="372,30,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Image Margin="32,10,616,296" Source="/7e8c1a.jpg" Stretch="Fill"/>
+        <Label Content="Введит a" HorizontalAlignment="Left" Margin="32,165,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Введит c" HorizontalAlignment="Left" Margin="32,269,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Введите b" HorizontalAlignment="Left" Margin="32,217,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="TextBox" HorizontalAlignment="Left" Margin="161,165,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="195" Height="35" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Margin="161,269,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="195" Height="35"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="161,217,0,0" TextWrapping="Wrap" Text="TextBox1" VerticalAlignment="Top" Width="195" Height="35"/>
+        <Label Content="Результат вычислений" HorizontalAlignment="Left" Margin="372,165,0,0" VerticalAlignment="Top" FontSize="36" Height="170" Width="377"/>
+        <Button Content="Посчитать" HorizontalAlignment="Left" Margin="108,325,0,0" VerticalAlignment="Top" FontSize="36" Click="Button_Click"/>
+
+    </Grid>
+</Window>
